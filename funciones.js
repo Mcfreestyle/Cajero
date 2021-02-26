@@ -193,6 +193,7 @@ function calcularDinero()
 			{
 				alert("El cajero no tiene sencillo");
 				soles.value = "";
+				entregado = [];
 				for(var i = 0; i < atm.length; i++)
 				{
 					atm[i].cantidad = c[i];
