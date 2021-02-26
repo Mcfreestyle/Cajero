@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cajero virtual</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="screen" id="pantalla">
+		<h1>Banco Michael</h1>
+		<h2 id="tituloVentana">Por favor seleccione su transaccion</h2>
+		<div class="options" id="ventana">
+			<div class="options-button" id="divRecarga">
+				<input type="button" value="Recarga"  name= "billete" class="button" id="recarga">
+			</div>
+			<div class="options-button" id="divRetiro">
+				<input type="button" value="Retiro" name= "billete" class="button" id="retiro">
+			</div>	
+			<div class="options-button" id="divPago">
+				<input type="button" value="Pago" name= "billete" class="button" id="pago">
+			</div>
+			<div class="options-button" id="divConsulta">
+				<input type="button" value="Consulta" name= "billete" class="button" id="consulta">
+			</div>
+			<div class="options-button" id="divDeposito">
+				<input type="button" value="Deposito" name= "billete" class="button" id="deposito">
+			</div>
+			<div class="options-button" id="divOtro">
+				<input type="button" value="Otro" class="button" id="otro">
+			</div>
+		</div>
+	</div>
+	<div class="physical">
+		<div class="output" id="salidaDinero">
+			<div class="output-line"></div>
+			<canvas id="canvas" width="145" height="500"></canvas>
+		</div>
+		<div class="output keyboard">
+			<button class="key" name="numero">1</button>
+			<button class="key" name="numero">2</button>
+			<button class="key" name="numero">3</button>
+			<button class="key" name="numero">4</button>
+			<button class="key" name="numero">5</button>
+			<button class="key" name="numero">6</button>
+			<button class="key" name="numero">7</button>
+			<button class="key" name="numero">8</button>
+			<button class="key" name="numero">9</button>
+			<button class="key" name="numero">0</button>
+		</div>
+		<div class="output" id="salidaRecibo">
+			<div class="output-paper"></div>
+		</div>
+	</div>
+	<script src="funciones.js"></script>
+	<script src="codigo.js"></script>
+</body>
+</html>

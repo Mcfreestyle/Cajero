@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	color: #fff;
+}
+h2{
+	color: #fff;
+}
+h3{
+	font-size: 16px;
+}
+img{
+	width: 100;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+.screen{
+	background-image: linear-gradient(rgba(16,26,236,0.4),rgba(16,26,236,0.4)), url(images/fondo.jpg);
+	background-size: cover;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	border: 10px solid #393333;
+	padding: 15px;
+}
+	.options{
+		display: flex;
+		flex-wrap: wrap;
+	}
+		.options .options-button:nth-child(even){
+			text-align: right;
+		}
+	.options-button{
+		width: 50%;
+		margin: 10px 0;
+	}
+	.button{
+		width: 100px;
+	}
+.physical{
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+	background-color: #B3B0B0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	.output{
+		width: 32%;
+	}
+	.output-line, .output-paper{
+		width: 80%;
+		height: 5px;
+		margin: auto;
+		background-color: #393333;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	.keyboard{
+		height: 180px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 10px;
+		background-color: #D4D4D4;
+		border-radius: 10px;
+	}
+		.key{
+			width: 40px;
+			height: 40px; 
+		}
+
+.ventanaInterior{
+	width: 100%;
+}
+	.divSoles{
+		width: 200px;
+		margin: auto;
+	}
+		.simboloSoles{
+			display: inline;
+			color: #fff;
+		}
+		.soles{
+			color: #fff;
+		}
+	.boton1, .boton2{
+		display: block;
+		margin-left: auto;
+		width: 100px;
+		margin-top: 20px;
+	}
+.papelRecibo{
+	width: 130px;
+	margin: auto;
+	background-color: #fff;
+	padding: 10px;
+}
+	.letraRecibo{
+		font-size: 12px;
+	}
